@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Python</title>
+</head>
+<body>
+    <style>
+        .tamanho{
+            width: 300px; margin: 10px; background-color: aquamarine ; transition: transform 0.3s ease-in-out;
+        }
+        .tamanho:hover{
+            transform: scale(1.2);
+        }
+    
+    </style>
+    <h1>Formulário Python</h1>
+    <form action="/process" method="post">
+        <label for="campo1">Campo 1:</label>
+        <input type="text" class="tamanho" id="campo1" name="campo1" required><br>
+
+        <label for="campo2">Campo 2:</label>
+        <input type="text" id="campo2" name="campo2" required><br>
+
+        <label for="campo3">Campo 3:</label>
+        <input type="text" id="campo3" name="campo3" required><br>
+
+        <label for="campo4">Campo 4:</label>
+        <input type="text" id="campo4" name="campo4" required><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
